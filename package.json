@@ -1,0 +1,11 @@
+{
+  "name": "moneyflow-manager",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MoneyFlow Manager — static, local-first finance app (GitHub Pages ready, zero dependencies)",
+  "scripts": {
+    "test": "TZ=Africa/Cairo node --test tests/*.test.js",
+    "serve": "node tools/serve.mjs"
+  }
+}
